@@ -3,7 +3,7 @@ function mult (num1: number, num2: number): number {
 }
 
 function dizOI (nome: string) {
-    console.log(`${nome} disse oi.`)
+    return(`${nome} disse oi.`);
 }
 
 console.log(mult(7, 2))
